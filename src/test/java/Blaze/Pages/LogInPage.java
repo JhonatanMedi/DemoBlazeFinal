@@ -21,6 +21,10 @@ public class LogInPage {
 	@FindBy(how = How.XPATH, using = "//input[@id='loginpassword']")
 	private WebElement txtPassword;
 		
+	
+	@FindBy(how = How.XPATH, using = "//input[@id='loginpassword']")
+	private WebElement prueba;
+	
 	// esto es un constructor 
 	public LogInPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
